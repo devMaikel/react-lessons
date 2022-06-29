@@ -1,0 +1,18 @@
+* {
+  padding: 10px;  
+}
+
+.App {
+  text-align: center;
+}
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokeDiv {
+  border: solid 1px black;
+  width: 300px;
+  text-align: center;
+}
