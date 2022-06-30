@@ -1,13 +1,14 @@
 import './App.css';
-import Pokedex from './components/Pokedex.js';
-import Search from './components/Search';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Content from './components/Content';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Pokedex Feroz</h1>
-      <Search />
-      <Pokedex />
+    <div>
+      <Header />
+      <Sidebar />
+      <Content />
     </div>
   );
 }
